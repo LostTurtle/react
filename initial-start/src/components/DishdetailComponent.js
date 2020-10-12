@@ -1,3 +1,4 @@
+
 import React from 'react';
 import {Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
@@ -60,8 +61,6 @@ import {Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 	const DishDetail = (props) => {
 
 		console.log('Dishdetail Component render invoked');
-
-		// console.log(selectedDish);
 		if(props.dish != null){
 			console.log(props.dish)
 			return(
@@ -84,5 +83,6 @@ import {Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 			)
 		}
 	}
+
 
 export default DishDetail;
