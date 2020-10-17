@@ -32,15 +32,6 @@ const About = (props) => {
         );
     })
 
-
-// function About(props) {
-
-//     const aboutus = props.leaders.map((leader) => {
-//         return (
-//             <p>Leader {leader.name}</p>
-//         );
-//     });
-
     return(
         <div className="container">
             <div className="row">
